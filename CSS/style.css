@@ -1,0 +1,215 @@
+.menu{
+    background-color: white;
+    width:100%;
+    color:black;
+    height:70px;
+}
+.menu ul{
+    gap:15px;
+    margin-right:100px;
+    margin-top:30px;
+}
+li:last-child {
+   color: rgb(225, 25, 25);
+  }
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+   
+
+}
+li{
+    float:right;
+    
+}
+li a{
+     display:block;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:20px;
+    justify-content:center;
+}
+li a:hover{
+    cursor:pointer;
+    color:brown;
+}
+.menu h1 {
+    float:left;
+    height:30px;
+    width:200px;
+    font-style: italic;
+    margin-left:60px;
+   color: rgb(189, 21, 21);
+}
+.main-body{
+  
+    position:relative;
+  
+}
+
+.main-body .font-layer {
+ position:absolute;
+}
+
+
+.main-body .font-layer .slide img{
+   width:1000px;
+   height:500px;
+   text-align: center;
+   margin-left:250px;
+
+   margin-top:40px;
+   font-style: none;
+   position:relative;
+   background-color: red;
+}
+.main-body .font-layer .slide{
+     position:absolute; 
+     background-color: green;
+     padding-bottom:20px;
+     padding-top:8px;
+     margin-left:70px;
+     float:left;
+  
+}
+.main-body .font-layer .slide h1{
+    position:absolute;
+    transform: translate(-50%, -50%);
+    color:white;
+    bottom:20px;
+    right:100px;
+}
+
+.main-body .menu-body h1{
+  animation:mymove 2.5s; 
+}
+@keyframes mymove{
+    from {font-size: 0;}
+    to{font-size:35px;}
+}
+.main-body .menu-body{
+   overflow:visible;
+  color: black;  
+    
+   margin-top:600px;
+    position:absolute;
+    margin-left:360px;
+}
+.main-body .menu-body h1{
+text-align:center;
+}
+.grid-container{
+    display:grid;
+    gap:35px 35px;
+    grid-template-columns:auto auto auto;
+   min-width:800px;
+
+    float:left;
+}
+.grid-container>div{
+    border:1px solid black;
+    padding:0px;
+    width:220px;
+    height:420px;
+    position:relative;
+    margin-top:5px;
+    border-radius: 20px;
+}
+
+.grid-container>div:hover{
+cursor:pointer;
+}
+.card {
+    background-color: white;
+    height:230px;  
+    border-radius: 20px;
+     
+}
+.card img{
+    width: 100%;
+    height: 60%;
+    object-fit:cover;
+    border-radius: 20px;
+}
+.text{
+text-align: center;
+font-weight: bold;
+font-size:15px;
+margin:6px;
+}
+.grid-container-head{
+    display:grid;
+    gap:25px 15px;
+    grid-template-columns:auto auto auto auto auto auto;
+    width:600px;
+    background-color: white;
+    margin-left:50px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.grid-container-head button{
+    height:40px;
+    width:120px;
+    border-radius:20px;
+    background-color: white;
+    color:brown;
+    border:1px solid brown;
+    font-weight: bold;
+}
+.grid-container-head button:hover{
+    background-color: brown;
+    color:white;
+    cursor:pointer;
+}
+.grid-container-head > button:first-child
+{     color:white;
+    background-color: brown;
+}
+.card button{
+   
+    width:80px;
+    margin-left: 65px;
+    border-radius: 5px;
+    margin-top: 2px;
+    background-color: blanchedalmond;
+}
+.custom-button{
+   all:unset;
+    width:80px;
+    margin-left: 65px;
+    border-radius: 5px;
+    margin-top: 2px;
+    background-color: blanchedalmond;
+    color:black;
+    border:1px solid black;
+    text-align:center;
+
+}
+
+.card button:hover{
+    
+    background-color: brown;
+    cursor:pointer;
+    text-decoration-line: none;
+}
+.card-display{
+    margin-top:30px;
+    margin-left: 350px;
+  
+}
+.footer{
+    background-color:brown;
+    color:white;
+    text-align:center;
+    margin-top:1500px;
+ 
+}
+.footer p{
+    padding-top:2px;
+  
+}
